@@ -1,18 +1,16 @@
-body{
-    margin:0;
+body {
+    margin:0px;
     padding-top: 800px;
     text-align:center;
 }
 .profile{
-    border-radius: 100%;
-    margin-left:25px;
-    margin-right:25px;
-    width:25%;
+    border-radius: 50%;
+    width:40%;
 }
 #welcome{
     position:absolute;
     bottom: 0;
-    background: linear-gradient(#60ebeb 0%,#27ae60 100%);
+    background: linear-gradient(#a4c7ee 0%,#07528f 100%);
     display:table;
     width:100%;
     height: 100%;
@@ -46,33 +44,30 @@ h2{
     vertical-align: middle;
 }
 .menu{
-    list-style: none;
+    list-style:none;
     position:fixed;
     top:0px;
     z-index: 10;
     cursor: pointer;
     margin-top:0px;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(207.207.207);
     width: 100%;
 }
 .links{
-    padding-top: 5px;
-    padding-left: 33px;
+    padding-top:5px;
+    padding-left:33px;
     padding-right: 25px;
     padding-bottom:5px;
-    font-family: fantasy;
+    font-family:fantasy;
     font-size:20px;
     display:inline;
     float: center;
 }
 a{
-    text-decoration:none;
+    text-decoration: none;
 }
 .links:hover{
     font-size:25px;
-    text-decoration: underline;
-}
-#writings a{
     text-decoration: underline !important;
     color:thistle !important;
 }
